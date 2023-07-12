@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.header {
+  background-color: #333;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: yellow;
+}
+#collapsibleNavbar{
+margin-left: 40%;
+
+}
+
+.nav-item{
+  margin-left: 10%;
+}
+.nav-item a{
+ font-family: 'Montserrat', sans-serif;
+}
+
