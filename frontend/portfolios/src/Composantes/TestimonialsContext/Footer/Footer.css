@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    padding-top: 2.5%;
+    text-align: center;
+  }
+  .social-media  {
+  
+   width: 50%;
+   margin-left: 25%;
+   display: flex;
+   justify-content: space-around;
+  }
+  
+  
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+ 
+  }
+  
+  .social-media a:hover {
+    color: yellow;
+  }
+  
+  .footer p {
+    font-size: 17px;
+    margin-top:30px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  img{
+    width: 70px;
+  }

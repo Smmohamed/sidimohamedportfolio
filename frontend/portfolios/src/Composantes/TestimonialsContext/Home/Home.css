@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.home-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .home-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .home-description {
+    font-size: 16px;
+    color: gray;
+  }
+  
+
+  .hero{
+    display: flex;
+    position: relative;
+    z-index: 3;
+    flex-direction: column;
+    background-image: url('../../assets/a3095d08-366a-48ab-9220-dc1cc984a804.jpg');
+    background-size: cover;
+background-position: center;
+    padding: 10%;
+          }
+
+          .hero h1{
+    margin-top: -15px;
+    font-size: 68px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 85;
+    color: white;
+    font-family: 'Lilita One', cursive;
+   
+                  }
+
+                  .hero p{
+                    margin-top: 5px;
+                    font-size: 72px;
+                    margin-left: 50px;
+                    position: relative;
+                    z-index: 15;
+                    color: white;
+                    font-family: 'Lilita One', cursive;
+                                  }
+                 
+                                  .hero img{
+                                    margin-top: 5px;
+                                    font-size: 58px;
+                                    position: relative;
+                                    z-index: 15;
+                                    
+                                    color: white;
+                                    font-family: 'Lilita One', cursive;
+                                                  }
+                                 
+                  .hero::after {
+                    content: '';
+                    position: absolute;
+                  top: 0;
+                  left: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.85;
+                    background-color:black; /* Change the opacity value as needed */
+                    z-index: 8;
+                  }
+
+                  .info{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding-left: 10%;
+                    padding-right: 5%;
+                    padding-top: 5%;
+                    padding-bottom: 5%;
+                  }
+
+                  .info div{
+                  width: 40%;
+
+                  }
+
+                  .info img{
+                 width: 450px;
+                  }
+                  .info div h1{
+                  font-size: 20pt;
+                  margin-left: 50px;
+                  font-family: 'Montserrat', sans-serif;
+                  font-weight: 200;
+                     }
+                     .info div p{
+                      font-size: 10pt;
+                      margin-left: 50px;
+                      margin-top: 25px;
+                      font-family: 'Montserrat', sans-serif;
+                      font-weight: 200;
+                         }
+                         .info div h2{
+                          font-size: 14pt;
+                          color: orangered;
+                          margin-left: 50px;
+                          margin-top: 5px;
+                          font-family: 'Montserrat', sans-serif;
+                          font-weight: 400;
+                             }
+                             .progress-bar{
+color: rgb(0, 119, 255);
+                             }
