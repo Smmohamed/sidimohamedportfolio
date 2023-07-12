@@ -52,7 +52,90 @@ const Home = () => {
     </p>
     
     
-    
+    <h2>My Skills</h2>
+
+    <div style={{marginLeft:'10%'}}>
+
+            <div class="progress-wrapper wow fadeInUp mt-3">
+              <span class="caption">JavaScript</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'70%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">Html</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'80%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">Css</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'80%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+            
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">React js</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'60%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+
+
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">Next js</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'30%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+
+         
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">MySql</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'60%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+
+
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">MongoDb</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'65%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">Cassandra</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'40%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">Java</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'60%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+
+            <div class="progress-wrapper wow fadeInUp ">
+              <span class="caption">C#</span>
+              <div class="progress mt-1" style={{width:'450%'}} >
+                <div class="progress-bar" role="progressbar" style={{width:'67%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">.</div>
+              </div>
+            </div>
+          
+</div>
+
    </div>
      
      
